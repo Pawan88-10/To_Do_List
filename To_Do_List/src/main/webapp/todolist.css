@@ -1,0 +1,98 @@
+@charset "UTF-8";
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            overflow : hidden;
+        }
+        
+        header{
+            height: 80px;
+            width: 100vw;
+            padding-top: 25px;
+            text-align: center;
+            background-color: greenyellow;
+        }
+        .head{
+            color: rebeccapurple;
+            margin: 1rem 0 1.5rem 9.4rem;
+        }
+       form{
+
+        .repetition{
+            display: flex;
+            justify-content: space-between;
+        }
+        label{
+            font-size: 20px;
+            margin-left : 9.7rem;
+        }
+        input{
+            padding: 10px;
+            margin: 5px 9.5rem 1rem;
+            width: 29rem;
+        }
+        /* .task{
+        	margin-left:9.3rem;
+        } */
+        .stau{
+            margin: 9.4rem;
+        }
+        .status{
+            width: 76.7rem;
+            margin: 0 0 2rem 9.4rem;
+        }
+        button{
+            padding: 10px 20px;
+            margin-left: 9.6rem;
+            background-color: red;
+            color: white;
+            border-radius: 5px;
+            border-color: red;
+            cursor: pointer;
+        }
+       }
+       .view{
+		height : 380px;
+        margin-left: 9.4rem;
+        overflow : scroll;
+        overflow-x : hidden;
+        
+            h1{
+                margin: 20px 0 20px;
+                color: rebeccapurple;
+            }
+            
+            table{
+            position : sticky;
+          
+            }
+           
+            th{
+                padding: 10px;
+                width: 208px;
+                text-align: start;
+            }
+            td{
+                padding: 10px;
+                width: 200px;
+                text-align: start;
+            }
+           .completed{
+            width: 25rem;
+            a{
+                padding: 5px 15px;
+                margin-left: 5rem;
+                border-radius: 5px;
+                background-color: red;
+                color: white;
+                text-decoration-line: none;
+                cursor: pointer;
+            }
+            .edit{
+               /*  margin-left: 10rem; */
+                background-color: orange;
+                color: black;
+            }
+           }
+       }
